@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(175, 175, 174);
+}
+.nav{
+    height: 20vh;
+    background-color: rgb(79, 92, 75);
+}
+img{
+    height: 15vh;
+margin: 10px;
+}
+.text{
+    font-weight: bolder;
+    margin: 2% 0 0 50% ;
+    font-size:xx-large;
+}
+.mainbody{
+    display: grid;
+    grid-template-columns: 30% 20% 20% 20%;
+    grid-template-rows: 25vh 30vh 30vh 30vh;
+}
+.cont{
+    background-color: rgb(79, 92, 75);
+}
+#sidecontainer{
+    grid-row: 1/4;
+    border-radius: 15px;
+    margin: 05px;
+
+}
+#search{
+    background-color: rgb(79, 92, 75);
+    grid-column: 2/8;
+    width: 80%;
+    height: 10vh;
+    margin: 35px 0 30px 5px;
+    border-radius: 10px;
+
+}
+#main1{
+    background-color: rgb(79, 92, 75);
+    border-radius: 10px;
+    height: 30vh;
+    margin: 5px ;
+}
+#main2{
+    background-color: rgb(79, 92, 75);
+    height: 30vh;
+    border-radius: 10px;
+    margin: 5px ;
+}
+#main3{
+    background-color: rgb(79, 92, 75);
+    height: 30vh;
+    border-radius: 10px;
+    margin: 5px ;
+}
+#sub{
+    grid-column: 2/5;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+}
